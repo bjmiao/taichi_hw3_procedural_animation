@@ -1,27 +1,16 @@
-# 太极图形课S1-标题部分
-这个作业未来或将是你的开源项目，标题的内容可以来自作业中的核心关键词，让读者一眼看出你所完成的工作/做出的好玩demo
-
-如果暂时未想好，起名时可以参考“太极图形课S1-xxx作业”
-
-如下是作业（项目）展开说明的方法，可以帮大家理清思路，并且也对读者非常友好，请小伙伴们多多参考哦
+# 太极图形课S1-程序动画
+模仿了ShaderToy中的一个样例，实现了一个程序动画。
 
 ## 背景简介
-这里可以简要描述作业（项目）的基本背景情况，它源自哪里？能够有效解决哪些问题？可以尽情列举它的亮点哦
+参考（zhaochao）了[这个链接](https://www.shadertoy.com/view/XdlSDs)中的Total Noob的Shader Toy，并且在Taichi中实现。这个Shader Toy获得了SIGGRAPH2014的ShaderToy大奖，很炫，并且实现起来非常简洁。
+
+说实话我并没有完全理解程序当中的数学（特别是最后控制边缘高亮的弧度的变化的那一段），只能够猜个大概。也许这就是大神吧。![astonishing](./data/astonishing.jpg)
+
+使用了handy_shader_functions中的一些函数，非常好用，Thanks♪(･ω･)ﾉ。
 
 ## 成功效果展示
-这里可以展示这份作业（项目）run起来后的可视化效果，可以让其他人更直观感受到你的工作
 
-![fractal demo](./data/fractal.jpg)
-## 整体结构（Optional）
-脉络清晰的结构能完整展示你的设计思想，以及实现方式，方便读者快读代入，建议可以在repo的目录中包含如下内容：
-这个部分希望大家可以大作业中加入，小作业中可以选择性加入（如果不加也是OK的）
-```
--LICENSE
--|data
--README.MD
--xxx.py
-```
+![fractal demo](./data/video.gif)
 
 ## 运行方式
-相信读者们看到这里已经迫不及待想尝试了，这里标记好快速上手的方式即可~  
-例如:  `python3 main.py`
+运行 `python3 noob.py`，录像 `python3 noob.py --record`
